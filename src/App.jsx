@@ -4,13 +4,11 @@ import viteLogo from '/vite.svg'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 import LandingPage from './Components/LandingPage'
-import PageHeader from './Components/PageHeader'
-import Footer from './Components/Footer'
 import AboutUs from './Pages/AboutUs'
 import CircularsPage from './Pages/CircularsPage'
 import BlogPage from './Pages/BlogPage'
 import ContactPage from './Pages/ContactPage'
-import Gallery from './Pages/gallery'
+import Gallery from './Pages/Gallery'
 import Home2 from './Home/Home2'
 import Home3 from './Home3/Home'
 
@@ -25,8 +23,6 @@ function App() {
       <Route path='/home-1' element={<LandingPage/>}/>
       <Route path='/home-2' element={<Home2/>}/>
       <Route path='/home-3' element={<Home3/>}/>
-      <Route path='/home-1' element={<LandingPage/>}/>
-      <Route path='/home-1' element={<LandingPage/>}/>
       <Route path='/about' element={<AboutUs/>}/>
       <Route path='/circular' element={<CircularsPage/>}/>
       <Route path='/blog' element={<BlogPage/>}/>
