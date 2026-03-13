@@ -86,7 +86,7 @@ const Header = () => {
 
                 <div className="bg-white text-black w-44 shadow-lg border">
 
-                  <Link to="/home-1" className="block px-4 py-2 hover:bg-gray-100">
+                  <Link to="/" className="block px-4 py-2 hover:bg-gray-100">
                     Home 1
                   </Link>
 
@@ -171,7 +171,7 @@ const Header = () => {
 
               <div className="pl-4 flex flex-col gap-3 text-gray-600">
 
-                <Link to="/home-1" onClick={() => setMenuOpen(false)}>
+                <Link to="/" onClick={() => setMenuOpen(false)}>
                   Home 1
                 </Link>
 
